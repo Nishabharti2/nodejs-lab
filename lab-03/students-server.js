@@ -1,9 +1,19 @@
 const http = require('http');
 
 const students = [
-    { id: 1, name: "Aman", course: "BCA" },
-    { id: 2, name: "Nandani", course: "BCA" },
-    { id: 3, name: "Abhishek", course: "BIT" }
+    { id: 1, name: "Aditya", course: "BCA" },
+    { id: 2, name: "Ayush", course: "BCA" },
+    { id: 3, name: "Bhaskar", course: "BCA" },
+    { id: 4, name: "Gauri", course: "BCA" },
+    { id: 5, name: "Kanak", course: "BCA" },
+    { id: 6, name: "Nisha", course: "BCA" },
+    { id: 7, name: "Pragya", course: "BCA" },
+    { id: 8, name: "Rishab", course: "BCA" },
+    { id: 9, name: "Sudhanshu", course: "BCA" },
+    { id: 10, name: "Shreya", course: "BCA" },
+    { id: 11, name: "Mikki", course: "BCA" },
+    { id: 12, name: "Yadev", course: "BCA" },
+    { id: 13, name: "Shreya Kashyap", course: "BCA" }
 ];
 
 const items = [
