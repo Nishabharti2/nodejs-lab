@@ -1,0 +1,8 @@
+Task 2 and Task 3 Reflection
+
+The fs.readFile() method does not block the rest of the program because it works asynchronously. It starts reading the file and allows the next lines of the program to execute. After the file is completely read, its callback function runs and prints the file content. In our experiment, the message outside the callback was printed before the file content. On the other hand, fs.readFileSync() waits until the file is completely read before executing the next line.
+
+
+Notes App Reflection
+
+If two people run add-note.js at exactly the same time, both programs may try to write to notes.txt together. This can cause problems with the file operations depending on how the writes are handled. In some situations, data could be written in an unexpected order or a note could be affected. This is more important when many users are trying to update the same file at the same time. For a small single-user application like this lab, the risk is much lower.

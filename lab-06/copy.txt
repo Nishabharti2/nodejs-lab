@@ -1,0 +1,3 @@
+Node.js File System Module
+This is Lab 06 of BCA VII.
+I am learning how Node.js works with files.
