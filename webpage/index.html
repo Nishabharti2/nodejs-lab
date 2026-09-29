@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Node.js Laboratory | BCA VII</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <div class="logo-box">JS</div>
+
+            <div>
+                <h2>Node.js Laboratory</h2>
+                <p>BCA VII Semester</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#labs">Labs</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-heading">
+                BCA VII • NODE.JS PRACTICAL WORK
+            </p>
+
+            <h1>
+                Node.js
+                <span>Laboratory</span>
+            </h1>
+
+            <p class="hero-text">
+                A complete collection of my Node.js laboratory work
+                from Lab 01 to Lab 06, including programs, concepts,
+                tasks and practical implementations.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#labs" class="btn primary-btn">
+                    Explore Labs
+                </a>
+
+                <a href="https://github.com/Nishabharti2/nodejs-lab"
+                   target="_blank"
+                   class="btn secondary-btn">
+                    View GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="terminal-top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="terminal-content">
+
+                <p>
+                    <span class="green">const</span>
+                    student =
+                    <span class="yellow">"Nisha Bharti"</span>;
+                </p>
+
+                <p>
+                    <span class="green">const</span>
+                    course =
+                    <span class="yellow">"BCA VII"</span>;
+                </p>
+
+                <p>
+                    <span class="green">const</span>
+                    labs =
+                    <span class="blue">6</span>;
+                </p>
+
+                <p class="success">
+                    ✓ Laboratory Work Completed
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT / STATS ================= -->
+
+    <section class="stats-section">
+
+        <div class="stat-card">
+            <h2>06</h2>
+            <p>Labs Completed</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>Node.js</h2>
+            <p>Technology</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>VII</h2>
+            <p>Semester</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>BCA</h2>
+            <p>Programme</p>
+        </div>
+
+    </section>
+
+
+    <!-- ================= LAB SECTION ================= -->
+
+    <section class="labs-section" id="labs">
+
+        <div class="section-heading">
+
+            <p>LABORATORY WORK</p>
+
+            <h2>
+                Explore My Labs
+            </h2>
+
+            <span>
+                Select a laboratory to view its complete work.
+            </span>
+
+        </div>
+
+
+        <!-- LAB CARDS -->
+
+        <div class="lab-grid">
+
+
+            <!-- LAB 01 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab01')">
+
+                <div class="lab-number">
+                    LAB 01
+                </div>
+
+                <h3>
+                    Getting Started with Node.js
+                </h3>
+
+                <p>
+                    Introduction to Node.js, npm,
+                    JavaScript execution and basic
+                    Node.js concepts.
+                </p>
+
+                <div class="tags">
+
+                    <span>Node.js</span>
+                    <span>npm</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+
+            <!-- LAB 02 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab02')">
+
+                <div class="lab-number">
+                    LAB 02
+                </div>
+
+                <h3>
+                    First Node.js Server
+                </h3>
+
+                <p>
+                    Creating an HTTP server using
+                    Node.js core modules and handling
+                    different routes.
+                </p>
+
+                <div class="tags">
+
+                    <span>HTTP</span>
+                    <span>Server</span>
+                    <span>Routes</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+
+            <!-- LAB 03 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab03')">
+
+                <div class="lab-number">
+                    LAB 03
+                </div>
+
+                <h3>
+                    Student Directory API
+                </h3>
+
+                <p>
+                    Building a student directory API
+                    using dynamic routes and JSON
+                    responses.
+                </p>
+
+                <div class="tags">
+
+                    <span>API</span>
+                    <span>JSON</span>
+                    <span>Routes</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+
+            <!-- LAB 04 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab04')">
+
+                <div class="lab-number">
+                    LAB 04
+                </div>
+
+                <h3>
+                    Advanced Search & Filter API
+                </h3>
+
+                <p>
+                    Implementing search, filtering,
+                    sorting, query parameters and
+                    validation.
+                </p>
+
+                <div class="tags">
+
+                    <span>Search</span>
+                    <span>Filter</span>
+                    <span>Sort</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+
+            <!-- LAB 05 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab05')">
+
+                <div class="lab-number">
+                    LAB 05
+                </div>
+
+                <h3>
+                    Async JavaScript
+                </h3>
+
+                <p>
+                    Understanding asynchronous
+                    JavaScript using callbacks,
+                    Promises and async/await.
+                </p>
+
+                <div class="tags">
+
+                    <span>Callbacks</span>
+                    <span>Promises</span>
+                    <span>Async/Await</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+
+            <!-- LAB 06 -->
+
+            <div class="lab-card"
+                 onclick="openLab('lab06')">
+
+                <div class="lab-number">
+                    LAB 06
+                </div>
+
+                <h3>
+                    File System Module
+                </h3>
+
+                <p>
+                    Reading, writing, appending,
+                    deleting and copying files
+                    using the fs module.
+                </p>
+
+                <div class="tags">
+
+                    <span>fs</span>
+                    <span>Files</span>
+                    <span>Async/Await</span>
+
+                </div>
+
+                <button>
+                    View Lab →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= LAB DETAILS ================= -->
+
+    <section class="lab-details" id="labDetails">
+
+        <div class="details-container">
+
+            <button class="back-button"
+                    onclick="closeLab()">
+
+                ← Back to Labs
+
+            </button>
+
+
+            <div id="labContent">
+
+                <!-- JavaScript will insert lab content here -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <p class="small-heading">
+                ABOUT THIS WEBSITE
+            </p>
+
+            <h2>
+                Node.js Laboratory Record
+            </h2>
+
+            <p>
+                This website presents my Node.js laboratory
+                work completed during BCA VII Semester.
+                It contains practical implementations,
+                concepts, tasks and important code from
+                Lab 01 to Lab 06.
+            </p>
+
+            <div class="student-info">
+
+                <div>
+                    <strong>Student</strong>
+                    <span>Nisha Bharti</span>
+                </div>
+
+                <div>
+                    <strong>Course</strong>
+                    <span>BCA Computer Science</span>
+                </div>
+
+                <div>
+                    <strong>Semester</strong>
+                    <span>VII</span>
+                </div>
+
+                <div>
+                    <strong>University</strong>
+                    <span>Dev Sanskriti Vishwavidyalaya</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Nisha Bharti • Node.js Laboratory • BCA VII
+        </p>
+
+        <a href="https://github.com/Nishabharti2/nodejs-lab"
+           target="_blank">
+            GitHub Repository
+        </a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
